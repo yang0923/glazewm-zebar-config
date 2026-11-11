@@ -130,6 +130,7 @@ workspaces:
   - name: "7"
   - name: "8"
   - name: "9"
+  - name: "10"
 
 window_rules:
   - commands: ["ignore"]
@@ -300,6 +301,8 @@ keybindings:
     bindings: ["alt+8"]
   - commands: ["focus --workspace 9"]
     bindings: ["alt+9"]
+  - commands: ["focus --workspace 10"]
+    bindings: ["alt+0"]
 
   # 将当前工作区移动到不同方向的显示器上。
   - commands: ["move-workspace --direction left"]
@@ -330,3 +333,5 @@ keybindings:
     bindings: ["alt+shift+8"]
   - commands: ["move --workspace 9", "focus --workspace 9"]
     bindings: ["alt+shift+9"]
+  - commands: ["move --workspace 10", "focus --workspace 10"]
+    bindings: ["alt+shift+0"]
